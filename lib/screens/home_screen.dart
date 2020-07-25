@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_travel_ui/widgets/destination_carousel.dart';
-import 'package:flutter_travel_ui/widgets/hotel_carousel.dart';
+import '../widgets/destination_carousel.dart';
+import '../widgets/hotel_carousel.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class HomeScreen extends StatefulWidget {
