@@ -14,7 +14,6 @@ class FancyDestinationCard extends StatelessWidget {
     this.cardWidth, 
     this.imgHeight, 
     this.imgWidth,
-    
     });
 
   @override

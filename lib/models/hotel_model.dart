@@ -14,21 +14,27 @@ class Hotel {
 
 final List<Hotel> hotels = [
   Hotel(
-    imageUrl: 'assets/images/hotel0.jpg',
+    imageUrl: 'DGa0LQ0yDPc',
     name: 'Hotel 0',
-    address: '404 Great St',
-    price: 175,
+    address: 'Encuentro Guadalupe, El Porvenir, Mexico',
+    price: 1700,
   ),
   Hotel(
-    imageUrl: 'assets/images/hotel1.jpg',
+    imageUrl: 'GFcWwwGNu_w',
     name: 'Hotel 1',
-    address: '404 Great St',
-    price: 300,
+    address: 'Maldives, Kaafu Atoll',
+    price: 3000,
   ),
   Hotel(
-    imageUrl: 'assets/images/hotel2.jpg',
+    imageUrl: '425b2PhNuHA',
     name: 'Hotel 2',
-    address: '404 Great St',
-    price: 240,
+    address: 'Maldives',
+    price: 2400,
   ),
+  Hotel(
+    imageUrl: 'Koei_7yYtIo',
+    name: 'Hotel 3',
+    address: 'Ao Nang, Thailand',
+    price: 4000,
+    ),
 ];

@@ -14,7 +14,7 @@ class CarouselHeader extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Text(
-            'Exclusive Hotels',
+            title,
             style: TextStyle(
               fontSize: 22.0,
               fontWeight: FontWeight.bold,
@@ -22,9 +22,9 @@ class CarouselHeader extends StatelessWidget {
             ),
           ),
           GestureDetector(
-            onTap: () => print('See All'),
+            onTap: () => print(filter),
             child: Text(
-              'See All',
+              filter,
               style: TextStyle(
                 color: Theme.of(context).primaryColor,
                 fontSize: 16.0,
